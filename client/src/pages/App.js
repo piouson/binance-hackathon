@@ -21,13 +21,13 @@ function App() {
   return (
     <ErrorBoundary>
       <CssBaseline />
+      <Header />
       <Router>
         <Switch>
           <Route path="/todos">
             <Todo />
           </Route>
           <Route path="/playground">
-            <Header />
             <NinjaButton text="Primary Button" />
             <NinjaButtonSec text="Secondary Button" />
             <NinjaButtonTer
